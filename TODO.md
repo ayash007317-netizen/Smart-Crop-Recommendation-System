@@ -1,0 +1,62 @@
+# Task: Smart Crop Recommendation System
+
+## Plan
+- [x] Step 1: Update design system (index.css and tailwind.config.js) with agricultural color scheme
+  - [x] Define primary colors (green tones)
+  - [x] Define secondary colors (earth brown)
+  - [x] Define accent colors (sky blue)
+  - [x] Add custom gradients and shadows
+- [x] Step 2: Create types and interfaces
+  - [x] Weather data types
+  - [x] Crop recommendation types
+  - [x] Location types
+- [x] Step 3: Create weather API service
+  - [x] OpenWeather API integration
+  - [x] Error handling
+- [x] Step 4: Create crop recommendation logic
+  - [x] Rule-based recommendation engine
+  - [x] Fertilizer recommendations
+  - [x] Irrigation schedule generator
+  - [x] Yield prediction calculator
+- [x] Step 5: Create UI components
+  - [x] Location input component (GPS + manual)
+  - [x] Environmental data display cards
+  - [x] Crop recommendation cards
+  - [x] Fertilizer recommendation section
+  - [x] Irrigation schedule section
+  - [x] Yield prediction section
+- [x] Step 6: Create main page
+  - [x] Integrate all components
+  - [x] Add loading states
+  - [x] Add error handling
+- [x] Step 7: Update routes and App.tsx
+- [x] Step 8: Test and validate
+  - [x] Run lint
+  - [x] Fix any issues
+- [x] Step 9: Add city/village name feature
+  - [x] Add city/village input field to LocationInput
+  - [x] Display location name in EnvironmentalData
+  - [x] Update Home page to handle location name
+  - [x] Test and validate changes
+- [x] Step 10: Add automatic location detection (reverse geocoding)
+  - [x] Create reverse geocoding service
+  - [x] Add LocationInfo interface
+  - [x] Implement auto-detection for manual coordinates
+  - [x] Enhance GPS detection with location names
+  - [x] Add visual location indicator
+  - [x] Implement debouncing for API calls
+  - [x] Add loading states and error handling
+  - [x] Test and validate all scenarios
+
+## Notes
+- This is a pure frontend application - no database needed
+- Uses OpenWeather API for real-time weather data
+- Implements rule-based crop recommendation (simulating ML model)
+- Agricultural theme with green, brown, and blue colors
+- Card-based dashboard layout
+- All components created successfully
+- City/village name feature added for better personalization
+- Automatic location detection with reverse geocoding implemented
+- Real-time location detection as users type coordinates
+- GPS auto-detection now includes full location names
+- Debounced API calls for optimal performance
